@@ -1,0 +1,39 @@
+/*
+ *
+ * nextbus
+ *
+ * 
+ * MIT Licensed.
+ *
+ * Custom here your css module
+ *
+ */
+
+table.nextbus {
+    font-size: .5em;
+    border-collapse: collapse;
+    border-radius: .25em;
+}
+
+table.nextbus thead td {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+table.nextbus tbody td {
+    color: white;
+    border: solid thin gray;
+    white-space: nowrap;
+    line-height: 1em;
+    padding: .25em;
+}
+
+.nextbus_wrapper {
+    width: 10em;
+}
+
+.nextbus_updated {
+    font-size: .5em;
+}
